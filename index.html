@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <title>Kostadin Terziev</title>
+</head>
+<script>
+  setTimeout(() => {document.querySelector("body").style.opacity = "1";}, 100);
+</script>
+<style>
+    body {
+      font-family: 'Lato', cursive;
+      font-size: calc(10px + 0.33vw);
+      -webkit-font-smoothing: antialiased;
+      padding: 5vh 10vw;
+      color: #121314;
+      opacity: 0;
+      transition: all 200ms ease-in;
+    }
+    h1,h2{
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    h1 {
+      font-size: 4em;
+      color: #397449;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.6em;
+      font-weight: 300;
+      line-height: 1.4;
+      max-width: 26em;
+    }
+    a {
+      text-decoration: none;
+      color: #121314;
+      position: relative;
+    }
+    a:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 60%;
+      left: -0.1em;
+      right: -0.1em;
+      bottom: 0;
+      transition: top 200ms cubic-bezier(0.1, .6, .14, 1.2);
+      background-color:rgba(39, 175, 75, 0.5);
+    }
+    a:hover:after {
+      top: 0%;
+    }
+</style>
+
+<body>
+    <h1>Hi there.</h1>
+    <h2>My name is Kostadin Terziev.</h2>
+    <p>I'm a passionate Web Developer with a couple years of professional experience behind my back.</p>
+    <p>
+      If you want to know more you can contact me on my
+      <a href="https://www.instagram.com/cactus.coder/" target="_blank">instagram</a>,
+      <a href="https://www.linkedin.com/in/kostadin-terziev/" target="_blank">linkedin</a>
+      or by
+      <a href="mailto:kterziev9707@gmail.com">email</a>.
+    </p>
+    <p>Outside of programming, I enjoy video games, movies, pixel art and growing my cacti. 🌵</p>
+</body>
+</html>
